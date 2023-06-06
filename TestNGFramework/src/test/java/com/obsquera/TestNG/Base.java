@@ -20,7 +20,7 @@ public WebDriver driver;
 	{
 		//To invoke Chrome Browser
 		
-		System.setProperty("webdriver.chrome.driver","C:\\Users\\user\\Documents\\Seleniumtestingtutorial\\TestNGFramework\\src\\test\\java\\Resources\\chromedriver.exe" );
+		System.setProperty("webdriver.chrome.driver","C:\\Users\\user\\git\\TestNGFramework\\TestNGFramework\\src\\test\\java\\Resources\\chromedriver.exe" );
 	   driver=new ChromeDriver();
 		driver.get("https://selenium.obsqurazone.com/simple-form-demo.php");
 		driver.manage().window().maximize();
